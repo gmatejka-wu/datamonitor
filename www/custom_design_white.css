@@ -2,51 +2,43 @@ body, h2, .main-header .logo {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* MAIN SIDEBAR */
 .skin-black .main-sidebar {
   background-color: #FFFFFF; /* clean white */
   border-right: 1px solid #E0E0E0; /* subtle border */
 }
 
-/* ACTIVE TAB IN SIDEBAR MENU */
 .skin-black .main-sidebar .sidebar .sidebar-menu .active a {
   color: #1A1A1A; /* 10% black */
   background: #F1F5FA; /* light blue */
   font-weight: bold;
 }
 
-/* HOVER ON ACTIVE TAB — slightly lighter blue */
 .skin-black .main-sidebar .sidebar .sidebar-menu .active a:hover {
   background: #F1F5FA; /* lighter blue */
   color: #1A1A1A; /* 10% black */
 }
 
-/* OTHER LINKS IN SIDEBAR MENU */
 .skin-black .main-sidebar .sidebar .sidebar-menu a {
   background-color: #FFFFFF; /* white */
   color: #333333; /* dark text */
 }
 
-/* LINKS HOVER STATE */
 .skin-black .main-sidebar .sidebar .sidebar-menu a:hover {
   background-color: #F2F2F2; /* light gray */
   color: #1A1A1A; /* 10% black */
 }
 
-/* MAIN HEADER NAVBAR */
 .skin-black .main-header .navbar {
   background-color: #FFFFFF;
   border-bottom: 1px solid #E0E0E0;
 }
 
-/* LOGO / TITLE */
 .skin-black .main-header .logo {
   background-color: #FFFFFF;
   color: #1A1A1A; /* 10% black */
   font-weight: bold;
 }
 
-/* Prevent hover effect on logo/title */
 .skin-black .main-header .logo:hover {
   background-color: #FFFFFF;
   color: #1A1A1A; /* 10% black */
